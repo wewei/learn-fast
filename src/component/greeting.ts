@@ -7,5 +7,5 @@ import { FASTElement, attr, customElement, html } from "@microsoft/fast-element"
     `,
 })
 export class Greeting extends FASTElement {
-    @attr({ mode: "fromView" }) name: string = "World";
+    @attr name: string = "World";
 }
